@@ -5,12 +5,12 @@ networks:
     driver: bridge
 
 volumes:
-  voldb:
-    driver: local
-    driver_opts:
-      type: none
-      o: bind
-      device: ./docker/db_files/
+#   voldb:
+#     driver: local
+#     driver_opts:
+#       type: none
+#       o: bind
+#       device: ./docker/db_files/
   volnest:
     driver: local
     driver_opts:
@@ -22,8 +22,8 @@ services:
     postgres_db:
       container_name: postgres_db
       image: postgres
-      volumes:
-      - voldb:/var/lib/postgresql/data/
+      # volumes:
+      # - voldb:/var/lib/postgresql/data/
       environment:
         POSTGRES_DB: $POSTGRES_DB
         POSTGRES_USER: $POSTGRES_USER
