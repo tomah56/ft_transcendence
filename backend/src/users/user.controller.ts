@@ -75,7 +75,7 @@ export class UserController {
     @UseGuards(AuthGuard('2FA'))
     @UseInterceptors(FileInterceptor('file', multerOptions))
     uploadFile(@UploadedFile() file, @Req() req) : Promise<string> {
-        if (req.user.photo != 'null')
+        if (req.user.photo === 'null' || req.user.photo === 'undefined')
             this.usersService.deleteImage(req.user.photo); 
         return this.usersService.uploadAvatar(req.user.id, file.filename)
     }
