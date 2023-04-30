@@ -9,6 +9,8 @@ import { Message } from "./chat/message/message.entity";
 import { MessageModule } from "./chat/message/message.module";
 import {Game} from "./game/game.entity";
 import {GameModule} from "./game/game.module";
+import { ServeStaticModule } from '@nestjs/serve-static';
+import { join } from 'path';
 
 @Module({
     controllers: [],
@@ -23,6 +25,9 @@ import {GameModule} from "./game/game.module";
             database: process.env.POSTGRES_DB,
             entities: [User, Chat, Message, Game],
             synchronize: true,
+        }),
+        ServeStaticModule.forRoot({
+            rootPath: join(__dirname, '..', 'client'),
         }),
         UserModule,
         ChatModule,

@@ -11,7 +11,7 @@ async function start() {
     // const config = new DocumentBuilder()
 
 	app.enableCors({
-		origin: `http://${process.env.HOST_IP}:3000`,
+		origin: `http://${process.env.HOST_IP}:5000`,
 		credentials: true,
 	});
 
