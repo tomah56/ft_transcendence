@@ -32,14 +32,14 @@ printmessages();
 
 return (
 	<>
-			{messages && messages.map((message) => {
-					<Message key={message.id}
-						content={message.content}
-						date={message.date.toLocaleString("en-de") + " "}
-						displayName={message.displayName}
-						user={props.user.displayName}
-					/>
-			})}
+		{messages.map((message) => {
+				<Message key={message.id}
+					content={message.content}
+					date={message.date.toLocaleString("en-de") + " "}
+					displayName={message.displayName}
+					user={props.user.displayName}
+				/>
+		})}
 	</>
 
 );
