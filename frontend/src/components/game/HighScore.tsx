@@ -49,9 +49,9 @@ const HighScore: React.FC<BaseUserProps> = (props: BaseUserProps) => {
 
   const handleAvatarClick = (displayName: string) => {
     if (displayName === props.currentUser.displayName)
-      window.location.href = `http://${window.location.hostname}:3000`;
+      window.location.href = `http://${window.location.hostname}:5000`;
     else
-      window.location.href = `http://${window.location.hostname}:3000/users/${displayName}`;
+      window.location.href = `http://${window.location.hostname}:5000/users/${displayName}`;
     //navigate('/users/${displayName}');
   }
 

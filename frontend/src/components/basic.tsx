@@ -189,7 +189,7 @@ const Basic: React.FC<BaseUserProps> = (props : BaseUserProps) => {
     }
 
     const handleAvatarClick = (displayName: string) => {
-      window.location.href = `http://${window.location.hostname}:3000/users/${displayName}`;
+      window.location.href = `http://${window.location.hostname}:5000/users/${displayName}`;
     }
     
     return (

@@ -15,7 +15,7 @@ const [messages, setMessages] = useState<{content: string, chat: string, date: D
 
 useEffect(() => {
 async function printmessages() {
-	await axios.get("http://localhost:5000/chat/messages/" + props.chatidp, {withCredentials: true})
+	await axios.get(`http://${window.location.hostname}:5000/chat/messages/` + props.chatidp, {withCredentials: true})
 	.then( response => {
 		setMessages(response.data);
 	})
@@ -32,15 +32,13 @@ printmessages();
 
 return (
 	<>
-			{messages.map((message) => {
-				return (
+			{messages && messages.map((message) => {
 					<Message key={message.id}
 						content={message.content}
 						date={message.date.toLocaleString("en-de") + " "}
 						displayName={message.displayName}
 						user={props.user.displayName}
 					/>
-				);
 			})}
 	</>
 

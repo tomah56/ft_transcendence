@@ -18,7 +18,7 @@ const PublicChatList: React.FC<ChatProps> = (props : ChatProps) => {
 
 	function joinbuttonHandler(id :string) {
 		axios.post(`http://${window.location.hostname}:5000/chat/join`,  { userId : props.user.id,  chatId : id, password : chatPassValue }, {withCredentials: true}).then( () => {
-			const socket = io("http://localhost:5001/chat" );
+			const socket = io(`http://${window.location.hostname}:5000/chat/`);
 			socket?.emit('joinRoom', id);
 			props.onUpdate("", false);
 		}).catch((reason) => {

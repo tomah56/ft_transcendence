@@ -28,9 +28,13 @@ const handleChatPassChange = (event : ChangeEvent<HTMLInputElement>) => {
   
 useEffect(() => {
     async function getChatData() {
-        await axios.get("http://localhost:5000/chat/id/" + props.chatidp, {withCredentials: true})
+		
+        await axios.get( `http://${window.location.hostname}:5000/chat/id/` + props.chatidp, {withCredentials: true})
 		.then((response) => {
 			setchatData(response.data);
+		})
+		.catch((error) => {
+			console.log(error);
 		});
     }
     getChatData();

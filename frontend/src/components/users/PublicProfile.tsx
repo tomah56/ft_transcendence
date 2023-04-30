@@ -25,7 +25,7 @@ const PublicProfile: React.FC<BaseUserProps> = (props : BaseUserProps) => {
           .then((response) => {
             setPublicUser(response.data);
             if (response.data.displayName === props.currentUser.displayName)
-              window.location.href = `http://${window.location.hostname}:3000`;
+              window.location.href = `http://${window.location.hostname}:5000`;
             setIsFriend(props.currentUser.friends.includes(response.data.id));
             setIsBlocked(props.currentUser.bannedUsers.includes(response.data.id));
             const matchHistory = response.data.matchHistory;
@@ -107,7 +107,7 @@ const PublicProfile: React.FC<BaseUserProps> = (props : BaseUserProps) => {
     }
 
     const handleAvatarClick = (displayName: string) => {
-      window.location.href = `http://${window.location.hostname}:3000/users/${displayName}`;
+      window.location.href = `http://${window.location.hostname}:5000/users/${displayName}`;
     }
 
 	return (

@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b4a3885b.css",
+    "main.js": "/static/js/main.d270e348.js",
+    "static/media/snow-g489a55a12_1920.jpg": "/static/media/snow-g489a55a12_1920.7e50fc26e6e6bdaecb1c.jpg",
+    "static/media/jpg": "/static/media/ee7dbc369fd1cf1cce4714002480a8ad.a87faa91907e8e4fb7f6.jpg",
+    "static/media/littleman.png": "/static/media/littleman.10394494325f2a07e3d8.png",
+    "index.html": "/index.html",
+    "main.b4a3885b.css.map": "/static/css/main.b4a3885b.css.map",
+    "main.d270e348.js.map": "/static/js/main.d270e348.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b4a3885b.css",
+    "static/js/main.d270e348.js"
+  ]
+}

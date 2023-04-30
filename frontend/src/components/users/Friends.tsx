@@ -86,11 +86,11 @@ const Friends: React.FC<BaseUserProps> = (props: BaseUserProps) => {
   };
 
   const handleAvatarClick = (displayName: string) => {
-    window.location.href = `http://${window.location.hostname}:3000/users/${displayName}`;
+    window.location.href = `http://${window.location.hostname}:5000/users/${displayName}`;
   }
 
   const handleSendClick = () => {
-    window.location.href = `http://${window.location.hostname}:3000/chatrooms/`;
+    window.location.href = `http://${window.location.hostname}:5000/chatrooms/`;
   }
 
   return (

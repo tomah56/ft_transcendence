@@ -17,7 +17,7 @@ const TwoFactorAuth = () => {
         await axios.post(`http://${window.location.hostname}:5000/auth/validate`, { code }, { withCredentials: true });
         await axios.get(`http://${window.location.hostname}:5000/auth/enable`, { withCredentials: true });
         alert("Two-factor authentication has been enabled!");
-        window.location.href = `http://${window.location.hostname}:3000`;
+        window.location.href = `http://${window.location.hostname}:5000`;
       } catch(e) {
         alert("Invalid code. Please try again.");
       }

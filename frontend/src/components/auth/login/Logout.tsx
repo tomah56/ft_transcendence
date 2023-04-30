@@ -6,7 +6,7 @@ const Logout = () => {
   const handleLogout = () => {
     axios.get(`http://${window.location.hostname}:5000/auth/logout`, { withCredentials: true })
       .then(() => {
-        window.location.href = `http://${window.location.hostname}:3000/auth`;
+        window.location.href = `http://${window.location.hostname}:5000/auth`;
       })
       .catch((error) => console.error(error));
   };

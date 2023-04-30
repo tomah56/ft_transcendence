@@ -18,7 +18,6 @@ export default function ReconnectGame (props : ReconnectGameProps) {
     }
 
     socket.on('gameUpdate', (gameData : GameData) => {
-        console.log(gameData);
         setGameData(gameData);
     });
 
