@@ -236,17 +236,17 @@ export class GameService {
     sendScoreToUser(dto : GameScoreDto, gameId : string) : void {
         const matchData = this.gameIdToGameOption.get(gameId);
         if (matchData) {
-            if (dto.firstPlayerScore > dto.secondPlayerScore) {
-                this.userService.wonGame(matchData.firstPlayer, gameId);
-                this.userService.lostGame(matchData.secondPlayer, gameId);
+            if (dto.firstPlayerScore === dto.secondPlayerScore) {
+                this.userService.draw(matchData.firstPlayer, gameId);
+                this.userService.draw(matchData.secondPlayer, gameId);
             }
-            else if (dto.firstPlayerScore < dto.secondPlayerScore) {
+            else if (Number(dto.firstPlayerScore) < Number(dto.secondPlayerScore)) {
                 this.userService.lostGame(matchData.firstPlayer, gameId);
                 this.userService.wonGame(matchData.secondPlayer, gameId);
             }
             else {
-                this.userService.draw(matchData.firstPlayer, gameId);
-                this.userService.draw(matchData.secondPlayer, gameId);
+                this.userService.wonGame(matchData.firstPlayer, gameId);
+                this.userService.lostGame(matchData.secondPlayer, gameId);
             }
             this.deleteGameData(gameId);
         }
