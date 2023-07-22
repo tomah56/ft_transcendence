@@ -1,6 +1,6 @@
 # ft_transcendence
 This project is about creating a website for the mighty Pong contest!\
-by [doreshev](https://github.com/doreshev), [tomah56](https://github.com/tomah56) & [pweinstock](https://github.com/pweinstock)
+by [doreshev](https://github.com/doreshev), [pweinstock](https://github.com/pweinstock), [tomah56](https://github.com/tomah56)
 ## Overview
 Thanks to your website, users will play Pong with others. You will provide a nice user interface, a chat, and real-time multiplayer online games!
 Your work has to comply with the following rules:
@@ -78,24 +78,15 @@ Set the variables with the desired values.
 
 ### Login
 ![Screen Shot 2023-06-05 at 12 42 28 PM 1](https://github.com/pweinstock/ft_transcendence/assets/37242263/2ef5151a-31df-4f7f-882b-1d35ebbe8790)
-![Screen Shot 2023-06-05 at 12 43 40 PM](https://github.com/pweinstock/ft_transcendence/assets/37242263/3d59b26f-11ff-4453-9fe3-89265617106b)
-![Screen Shot 2023-06-05 at 6 59 22 PM](https://github.com/pweinstock/ft_transcendence/assets/37242263/608afba3-307e-42b2-9158-fc9431b08d91)
 ### Home
 ![Screen Shot 2023-06-05 at 1 13 08 PM](https://github.com/pweinstock/ft_transcendence/assets/37242263/67000227-a6cf-4f52-b623-ed8aead3af3e)
 ### Two-Factor Authentication
 ![Screen Shot 2023-06-05 at 5 04 12 PM](https://github.com/pweinstock/ft_transcendence/assets/37242263/4f311e1b-4905-4680-85e2-6bff322c2549)
-![Screen Shot 2023-06-05 at 5 04 39 PM](https://github.com/pweinstock/ft_transcendence/assets/37242263/fb57473c-1d35-4a2c-a249-2cea2b7053d0)
-![Screen Shot 2023-06-05 at 5 05 47 PM](https://github.com/pweinstock/ft_transcendence/assets/37242263/44935b76-ba56-441f-9009-a127b1154ce3)
 ### ChatRooms
 ![Screen Shot 2023-06-05 at 1 41 11 PM](https://github.com/pweinstock/ft_transcendence/assets/37242263/83c28888-8fb9-4743-98cb-d1fc410e44b3)
 ### Game
-![Screen Shot 2023-06-05 at 1 00 42 PM](https://github.com/pweinstock/ft_transcendence/assets/37242263/db497d54-f0e2-4bd9-83af-61d025151a6a)
-![Screen Shot 2023-06-05 at 1 01 12 PM](https://github.com/pweinstock/ft_transcendence/assets/37242263/5b7e7625-f9d6-465d-85c4-4b016a7ee17f)
-![Screen Shot 2023-06-05 at 1 02 18 PM](https://github.com/pweinstock/ft_transcendence/assets/37242263/8455b4c3-0842-4404-8707-78ad93c7c566)
-![Screen Shot 2023-06-05 at 1 08 43 PM](https://github.com/pweinstock/ft_transcendence/assets/37242263/0c8d0ae5-d0cd-418e-b1c9-316cc4240791)
 ![Screen Shot 2023-06-05 at 1 05 14 PM](https://github.com/pweinstock/ft_transcendence/assets/37242263/bc863ce2-a6c3-4db5-a5d6-2b17094e86e4)
 ### HighScore
 ![Screen Shot 2023-06-05 at 1 13 42 PM](https://github.com/pweinstock/ft_transcendence/assets/37242263/0a3136d1-53e6-4f42-8fb0-7e6bb5d28792)
 ### Friends
 ![Screen Shot 2023-06-05 at 1 42 44 PM](https://github.com/pweinstock/ft_transcendence/assets/37242263/097041d7-ccca-4905-bca5-5b323c90ca88)
-![Screen Shot 2023-06-05 at 1 43 03 PM](https://github.com/pweinstock/ft_transcendence/assets/37242263/e39fd4f9-6006-4e78-af30-08f30319a399)
