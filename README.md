@@ -86,7 +86,3 @@ Set the variables with the desired values.
 ![Screen Shot 2023-06-05 at 1 41 11 PM](https://github.com/pweinstock/ft_transcendence/assets/37242263/83c28888-8fb9-4743-98cb-d1fc410e44b3)
 ### Game
 ![Screen Shot 2023-06-05 at 1 05 14 PM](https://github.com/pweinstock/ft_transcendence/assets/37242263/bc863ce2-a6c3-4db5-a5d6-2b17094e86e4)
-### HighScore
-![Screen Shot 2023-06-05 at 1 13 42 PM](https://github.com/pweinstock/ft_transcendence/assets/37242263/0a3136d1-53e6-4f42-8fb0-7e6bb5d28792)
-### Friends
-![Screen Shot 2023-06-05 at 1 42 44 PM](https://github.com/pweinstock/ft_transcendence/assets/37242263/097041d7-ccca-4905-bca5-5b323c90ca88)
